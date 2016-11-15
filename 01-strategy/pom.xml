@@ -24,6 +24,7 @@
 	<modules>
 		<module>001-simuduck-v0</module>
         <module>002-simuduck-v1</module>
+        <module>003-simuduck-v2</module>
 	</modules>	   
 
 </project>
