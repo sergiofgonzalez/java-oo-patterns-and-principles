@@ -1,5 +1,5 @@
-# 002-simuduck-v1
-> Second take at SimUDuck Domain Model using interfaces
+# 003-simuduck-v2
+> Improving the design applying the Strategy interface
 
 ## Application Requirements
 SimUDuck is an application that models Ducks for a simulator. This application is expected to feature different types of Ducks, so some features should be added to foster **reusability** and prevent **code duplication**.
@@ -26,7 +26,7 @@ Design is good, but can be improved to reduce code duplication:
 + All the concrete classes must feature the two fields, the setters and the methods that perform the `fly` and `quack`.
 
 **Note**
-This point is controversial, and it can be argued that moving the fields, setters and methods to the base class might create an unnecessary coupling with the base class, or even provide methods to Duck types that will not make sense such as `RubberDuck.fly`.
+This point is controversial, and it can be argued that moving the fields, setters and methods to the base class might create an unnecessary coupling with the base class, or even provide methods to Duck types that will not make sense such as `RubberDuck.fly`. However, in this particular case, i think that the v3 is better.
 
 
 ## Principles and Patterns
