@@ -14,3 +14,6 @@ A new requirement to implement some ducks that fly and some that don't is receiv
 
 ### 003-simuduck-v2
 A new design based on declaring behaviors and implementation classes that are not directly bound to concrete implementation classes are used. The design is good enough although it could be argued that code can be moved up to the base class to reduce code duplication by increasing the coupling. 
+
+### 004-simuduck-v3
+A minor change consisting in moving common code to the base class to reduce code duplication. IMHO this is better than v2. 
