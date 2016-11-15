@@ -13,32 +13,30 @@ public class DomainTest {
 	@Test
 	public void testMallardDuckCanSwimQuackAndFly() {
 		/* Arrange */
-		MallardDuck d = new MallardDuck() {{ 
+		MallardDuck d = new MallardDuck() {{
 			setFlyBehavior(new FlyWithWings());
 			setQuackBehavior(new BasicQuack());
 		}};
 				
 		/* Act + Assert */
 		assertThat(d.display(), is(equalTo("MallardDuck.display")));
-		assertThat(d.swim(), is(equalTo("Duck.swim")));
-		
 		assertThat(d.quack(), is(equalTo("BasicQuack.quack")));
+		assertThat(d.swim(), is(equalTo("Duck.swim")));
 		assertThat(d.fly(), is(equalTo("FlyWithWings.fly")));
 	}
 	
 	@Test
 	public void testRedHeadDuckCanSwimQuackAndFly() {
 		/* Arrange */
-		RedHeadDuck d = new RedHeadDuck() {{ 
+		RedHeadDuck d = new RedHeadDuck() {{
 			setFlyBehavior(new FlyWithWings());
 			setQuackBehavior(new BasicQuack());
 		}};
 				
 		/* Act + Assert */
 		assertThat(d.display(), is(equalTo("RedHeadDuck.display")));
-		assertThat(d.swim(), is(equalTo("Duck.swim")));
-		
 		assertThat(d.quack(), is(equalTo("BasicQuack.quack")));
+		assertThat(d.swim(), is(equalTo("Duck.swim")));
 		assertThat(d.fly(), is(equalTo("FlyWithWings.fly")));
 	}
 	
@@ -51,9 +49,8 @@ public class DomainTest {
 				
 		/* Act + Assert */
 		assertThat(d.display(), is(equalTo("RubberDuck.display")));
-		assertThat(d.swim(), is(equalTo("Duck.swim")));
-		
 		assertThat(d.squeak(), is(equalTo("SqueakQuack.quack")));
+		assertThat(d.swim(), is(equalTo("Duck.swim")));
 	}
 	
 	@Test
