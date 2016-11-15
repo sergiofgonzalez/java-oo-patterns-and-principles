@@ -14,7 +14,7 @@
 
     <name>|-- 003-simuduck-v2</name>
 	<description>	
-        SimuDuck: Second attempt to support extensibility requirements
+        SimuDuck: Applying the Strategy pattern
 	</description>
 </project>
 
