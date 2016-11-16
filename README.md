@@ -6,3 +6,4 @@ This repository contains simple examples that illustrate basic OO patterns and p
 
 ## Chapters
 + 01-strategy &mdash; The Strategy Pattern
++ 02-observer &mdash; The Observer Pattern

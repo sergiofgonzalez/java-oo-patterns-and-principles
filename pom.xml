@@ -19,6 +19,7 @@
 		    
 	<modules>
 		<module>01-strategy</module>
+        <module>02-observer</module>
 	</modules>	   
 
 	
