@@ -61,6 +61,8 @@ void update(double temperature, double humidity, double pressure);
 Although this satisfies the requirements, it's a weak point of the design if additional measurements are provided by the sensors, as they will require modification in the interface and in all the observers.
 ## Principles and Patterns
 
+A third point to consider is that Java supports the *observer* pattern through the `Observable` &mdash; for the `Subject` &mdash; and the `Observer` interface. By using those available class and methods we will not be reinventing the wheel (DRY).
+
 ### Principles ###
 **Loose Coupling**
 When two objects are loosely coupled, they can interact, but have very little knowledge of each other.
