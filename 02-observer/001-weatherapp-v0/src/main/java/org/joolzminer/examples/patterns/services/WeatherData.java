@@ -32,7 +32,7 @@ public class WeatherData {
 			public void run() {
 				measurementsChanged();
 			}
-		}, 0, 10 * 30000);
+		}, 0, 30 * 1000);
 	}
 	
 	
