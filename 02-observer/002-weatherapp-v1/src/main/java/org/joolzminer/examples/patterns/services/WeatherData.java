@@ -43,20 +43,20 @@ public class WeatherData implements Subject {
 	private static double getHumidity() {
 		LOGGER.debug("Contacting Internet service to retrieve current humidity...");
 		
-		double currentTemperature = (new Random().nextDouble() * 25.0) + 75.0; /* random between -75 and 100 */
+		double currentHumidity = (new Random().nextDouble() * 25.0) + 75.0; /* random between -75 and 100 */
 		
-		LOGGER.debug("Current humidity={}", currentTemperature);
-		return currentTemperature;
+		LOGGER.debug("Current humidity={}", currentHumidity);
+		return currentHumidity;
 
 	}
 	
 	private static double getPressure() {
 		LOGGER.debug("Contacting Internet service to retrieve current pressure...");
 		
-		double currentTemperature = (new Random().nextDouble() * 0.40) + 29.80; /* random between 29.80 and 30.20 */
+		double currentPressure = (new Random().nextDouble() * 0.40) + 29.80; /* random between 29.80 and 30.20 */
 		
-		LOGGER.debug("Current pressure={}", currentTemperature);
-		return currentTemperature;
+		LOGGER.debug("Current pressure={}", currentPressure);
+		return currentPressure;
 	}
 	
 	/* This method gets called whenever the weather measurements have been updated */
