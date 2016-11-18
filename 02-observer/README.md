@@ -1,9 +1,6 @@
 # 02-observer
 > Dynamic behaviors and the Strategy pattern
 
-## Patterns and Principles
-
-
 ## Projects
 
 ### 001-weatherapp-v0

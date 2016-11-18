@@ -1,9 +1,6 @@
 # 01-strategy
 > Dynamic behaviors and the Strategy pattern
 
-## Patterns and Principles
-
-
 ## Projects
 
 ### 001-simuduck-v0
