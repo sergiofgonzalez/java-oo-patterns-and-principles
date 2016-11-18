@@ -77,6 +77,5 @@ public class WeatherData extends Observable {
 		acquireHumidity();
 		
 		setChanged();
-		notifyObservers();
 	}
 }
