@@ -46,7 +46,7 @@ We make the `WeatherData` class implement the `Subject` interface and the `Displ
 The main application instantiates an instance of `WeatherData` to bootstrap the application and then register the *observers*.
 
 ## Design Review
-The design with the *observer* pattern in place is solid. The `WeatherData` and the `Displays` are loosely coupled and the `WeatherApp` source code is succint and elegant.
+The design with the *observer* pattern in place is solid. The `WeatherData` and the `Displays` are loosely coupled and the `WeatherApp` source code is succinct and elegant.
 
 The application supports the extensibility requirement, as seen on the `FeelsLikeDisplay`.
 
