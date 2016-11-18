@@ -24,6 +24,7 @@
 	<modules>
 		<module>001-weatherapp-v0</module>
         <module>002-weatherapp-v1</module>
+        <module>003-weatherapp-v2</module>
 	</modules>	   
 
 </project>
