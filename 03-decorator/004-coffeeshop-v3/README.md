@@ -5,6 +5,7 @@
 A coffee shop needs to develop a domain model for their ordering system.
 
 They are initially offering four types of coffee in three different sizes:
+
 | coffee     | tall  | grande | venti  |
 | :--:       | :--   | :--    | :--    |
 | HouseBlend | $0.89 | +$0.10 | +$0.15 |
@@ -13,6 +14,7 @@ They are initially offering four types of coffee in three different sizes:
 | Espresso   | $1.99 | +$0.10 | +$0.15 |   
 
 And the following condiments:
+
 | coffee | tall  | grande | venti  |
 | :--:   | :--   | :--    | :--    |
 | Milk   | $0.10 | +$0.15 | +$0.20 |
