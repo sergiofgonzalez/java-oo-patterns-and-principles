@@ -1,5 +1,5 @@
 # 03-decorator
-> toDo
+> adding dynamic behaviors to cope with variability
 
 ## Projects
 
