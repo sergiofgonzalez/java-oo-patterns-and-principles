@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+    							http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+	    <groupId>org.joolzminer</groupId>
+	    <artifactId>java-oo-patterns-and-principles</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+    </parent>	
+	
+    <artifactId>04-factory</artifactId>
+    
+    <name>|- 04-factory</name>
+    <description>
+    	The Factory Pattern
+    </description>
+    
+	<packaging>pom</packaging>
+	
+		    
+	<modules>
+		<module>001-pizzaparlor-v0</module>
+        <module>002-pizzaparlor-v1</module>
+        <module>003-pizzaparlor-v2</module>
+        <module>004-pizzaparlor-v3</module>
+        <module>005-pizzaparlor-v4</module>
+        <module>006-pizzaparlor-v5</module>
+	</modules>	   
+
+</project>

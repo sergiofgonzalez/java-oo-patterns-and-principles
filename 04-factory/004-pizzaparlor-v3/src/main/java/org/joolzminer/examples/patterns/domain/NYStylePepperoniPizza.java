@@ -1,0 +1,8 @@
+package org.joolzminer.examples.patterns.domain;
+
+public class NYStylePepperoniPizza extends PepperoniPizza {
+	
+	public NYStylePepperoniPizza() {
+		this.description = "NYStylePepperoniPizza";
+	}
+}
