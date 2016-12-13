@@ -9,3 +9,4 @@ This repository contains simple examples that illustrate basic OO patterns and p
 + 02-observer &mdash; The Observer Pattern
 + 03-decorator &mdash; The Decorator Pattern
 + 04-factory &mdash; The Factory Pattern
++ 05-singleton &mdash; The Singleton Pattern

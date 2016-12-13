@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>05-singleton</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>005-singleton-double-checked-locking-v3</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 005-singleton-double-checked-locking-v3</name>
+	<description>	
+        Implementing a solid singleton: v3
+	</description>
+</project>
+
