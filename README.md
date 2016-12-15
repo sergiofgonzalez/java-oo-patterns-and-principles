@@ -10,3 +10,4 @@ This repository contains simple examples that illustrate basic OO patterns and p
 + 03-decorator &mdash; The Decorator Pattern
 + 04-factory &mdash; The Factory Pattern
 + 05-singleton &mdash; The Singleton Pattern
++ 06-command &mdash; The Command Pattern
