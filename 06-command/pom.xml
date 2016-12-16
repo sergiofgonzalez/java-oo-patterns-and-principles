@@ -23,6 +23,7 @@
 		    
 	<modules>
 		<module>001-remote-ctrl-api-v0</module>
+        <module>002-remote-ctrl-api-v1</module>
 	</modules>	   
 
 </project>
