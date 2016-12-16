@@ -9,17 +9,17 @@ The API for programming the remote must support an existing set of specialized v
 ## Proposed Design
 The vendor classes provide very different APIs one from the other, and the remote control only provides two buttons, so we must use some kind of encapsulation to be able to invoke the vendor actions from the remote control.
 
-To get the feel of the solution, we will base our solution on the *Command* pattern but implement a very simple remote control which only features one slot and a single button that triggers an action.
+To get the feel of the solution, we will base our solution on the *Command* pattern but implement a very simple remote control which only features one slot and a single button that triggers an action for v0.
 
-We define a `Command` interface that will expose a single method `execute`. Then, we create a set of classes implementing simple (ON/OFF) actions that satisfy the `Command` interface.
+We define a `Command` interface that will expose a single method `execute`. Then, we create a set of *Concrete Command classes* implementing simple actions satisfying the `Command` interface.
 
 Then, we build the remote like a class `SimpleRemoteControl` featuring a `Command` object and a `buttonWasPressed` method that will trigger the execution of the command. 
 
 
 ## Design Review
-The design satisfies the requirements. The `Command` object encapsulates the action that should be taken and the `SimpleRemoteControl` becomes the *client* of the vendor class that becomes the *receiver*. 
+The `Command` object encapsulates the action that should be taken and the `SimpleRemoteControl` becomes the *invoker* of the vendor class that becomes the *receiver*. 
 
-However, this `SimpleRemoteControl` only provides a single slot and a single button.
+However, this `SimpleRemoteControl` only provides a single slot and a single button, so it must be enhanced to comply with the requirements.
 
 
 ## Principles and Patterns
