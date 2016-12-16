@@ -24,6 +24,8 @@
 	<modules>
 		<module>001-remote-ctrl-api-v0</module>
         <module>002-remote-ctrl-api-v1</module>
+        <module>003-remote-ctrl-api-v2</module>
+        <module>004-remote-ctrl-api-v3</module>
 	</modules>	   
 
 </project>
