@@ -8,11 +8,11 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-    <artifactId>004-remote-ctrl-api-v3</artifactId>
+    <artifactId>005-remote-ctrl-api-v4</artifactId>
 
     <packaging>jar</packaging>
 
-    <name>|-- 004-remote-ctrl-api-v3</name>
+    <name>|-- 005-remote-ctrl-api-v4</name>
 	<description>	
         Implementing an extensible remote ctrl API using Command Pattern: v3
 	</description>

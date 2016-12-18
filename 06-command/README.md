@@ -15,3 +15,5 @@ Introduces the *undo* functionality as an additional button in the remote contro
 ### 004-remote-ctrl-api-v3
 Introduces the *macro* functionality, which allows a button to act upon several devices as if it was one.
 
+### 005-remote-ctrl-api-v4
+Removes the amount of classes needed for the command by using lambdas.
