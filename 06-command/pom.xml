@@ -28,6 +28,7 @@
         <module>004-remote-ctrl-api-v3</module>
         <module>005-remote-ctrl-api-v4</module>
         <module>006-remote-ctrl-api-v5</module>
+        <module>007-remote-ctrl-api-v6</module>
 	</modules>	   
 
 </project>
