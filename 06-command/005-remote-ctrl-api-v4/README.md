@@ -4,14 +4,13 @@
 ## Application Requirements
 
 ### New Requirement
-Reduce the number of classes using Lambdas. There is no need for *undo* functionality;
+Reduce the number of classes using Lambdas. There is no need for *undo* functionality.
 
 ## Proposed Design
-We remove all the *concrete command* classes and use inline lambdas instead. The `undo` method from the `Command` interface has been removed as the lambdas required *functional interfaces* (that is, interfaces that define a single method).
+Instead of defining the lambdas inline, holder classes are defined to group the commands.
 
 ## Design Review
-The usage of lambdas reduce the number of classes required to implement the Command classes. However, all the lambdas are defined inline, it would be better if those were defined in separate classes.
-
+The holder classes lead to a more organized implementation.
 
 ## Principles and Patterns
 
