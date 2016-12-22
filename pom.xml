@@ -25,6 +25,7 @@
         <module>05-singleton</module>
         <module>06-command</module>                
         <module>07-adapter</module>
+        <module>08-facade</module>
 	</modules>	   
 
 	
