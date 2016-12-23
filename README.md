@@ -13,3 +13,4 @@ This repository contains simple examples that illustrate basic OO patterns and p
 + 06-command &mdash; The Command Pattern
 + 07-adapter &mdash; The Adapter Pattern
 + 08-facade &mdash; The Façade Pattern
++ 09-template &mdash; The Template Pattern

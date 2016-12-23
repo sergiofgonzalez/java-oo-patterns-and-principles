@@ -26,6 +26,7 @@
         <module>06-command</module>                
         <module>07-adapter</module>
         <module>08-facade</module>
+        <module>09-template</module>
 	</modules>	   
 
 	
