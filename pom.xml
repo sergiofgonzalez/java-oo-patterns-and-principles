@@ -27,6 +27,7 @@
         <module>07-adapter</module>
         <module>08-facade</module>
         <module>09-template</module>
+        <module>10-iterator</module>
 	</modules>	   
 
 	

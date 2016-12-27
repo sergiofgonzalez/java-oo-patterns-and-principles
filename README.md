@@ -14,3 +14,4 @@ This repository contains simple examples that illustrate basic OO patterns and p
 + 07-adapter &mdash; The Adapter Pattern
 + 08-facade &mdash; The Façade Pattern
 + 09-template &mdash; The Template Pattern
++ 10-template &mdash; The Iterator Pattern
