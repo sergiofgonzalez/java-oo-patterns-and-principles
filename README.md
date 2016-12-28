@@ -15,3 +15,4 @@ This repository contains simple examples that illustrate basic OO patterns and p
 + 08-facade &mdash; The Façade Pattern
 + 09-template &mdash; The Template Pattern
 + 10-template &mdash; The Iterator Pattern
++ 11-composite &mdash; The Composite Pattern

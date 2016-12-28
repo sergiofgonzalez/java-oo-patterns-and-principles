@@ -28,6 +28,7 @@
         <module>08-facade</module>
         <module>09-template</module>
         <module>10-iterator</module>
+        <module>11-composite</module>
 	</modules>	   
 
 	
