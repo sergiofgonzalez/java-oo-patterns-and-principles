@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>12-state</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>002-gumball-state-machine-v1</artifactId>
+
+    <packaging>jar</packaging>
+
+    <name>|-- 002-gumball-state-machine-v1</name>
+	<description>	
+        Implementing a Gumball state machine: v1
+	</description>
+</project>
+

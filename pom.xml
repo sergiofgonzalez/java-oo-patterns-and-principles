@@ -29,6 +29,7 @@
         <module>09-template</module>
         <module>10-iterator</module>
         <module>11-composite</module>
+        <module>12-state</module>
 	</modules>	   
 
 	

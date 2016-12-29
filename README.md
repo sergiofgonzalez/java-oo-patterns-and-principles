@@ -16,3 +16,4 @@ This repository contains simple examples that illustrate basic OO patterns and p
 + 09-template &mdash; The Template Pattern
 + 10-template &mdash; The Iterator Pattern
 + 11-composite &mdash; The Composite Pattern
++ 12-state &mdash; The State Pattern
