@@ -30,6 +30,7 @@
         <module>10-iterator</module>
         <module>11-composite</module>
         <module>12-state</module>
+        <module>13-proxy</module>
 	</modules>	   
 
 	

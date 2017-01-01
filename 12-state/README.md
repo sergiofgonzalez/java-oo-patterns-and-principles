@@ -1,5 +1,5 @@
 # 12-state
-> ToDo
+> state machines implemented with the State design pattern
 
 ## Projects
 

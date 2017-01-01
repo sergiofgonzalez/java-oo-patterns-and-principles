@@ -17,3 +17,4 @@ This repository contains simple examples that illustrate basic OO patterns and p
 + 10-template &mdash; The Iterator Pattern
 + 11-composite &mdash; The Composite Pattern
 + 12-state &mdash; The State Pattern
++ 13-proxy &mdash; The Proxy Pattern
