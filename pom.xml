@@ -32,6 +32,7 @@
         <module>12-state</module>
         <module>13-proxy</module>
         <module>14-mvc</module>
+        <module>15-builder</module>        
 	</modules>	   
 
 	
